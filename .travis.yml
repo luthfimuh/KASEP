@@ -10,8 +10,6 @@ services:
 
 before_install: composer install
 
-before_script: mysql_test.php
-
 script: phpunit integration_test.php
 
 matrix:
