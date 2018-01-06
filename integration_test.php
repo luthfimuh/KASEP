@@ -10,6 +10,6 @@ class integration_test extends PHPUnit_FrameWork_TestCase{
 		$test_user = $user['id'];
 		
 		$content = $test_user;
-		$this->assertEquals(1,$content);
+		$this->assertNotEquals(1,$content);
 	}
 }
