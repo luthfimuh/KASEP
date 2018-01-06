@@ -17,3 +17,5 @@ class integration_test extends PHPUnit_FrameWork_TestCase{
 		$this->assertEquals(1,$content);
 	}
 }
+
+//coba
